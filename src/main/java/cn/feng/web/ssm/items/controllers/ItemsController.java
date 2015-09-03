@@ -24,7 +24,7 @@ public class ItemsController
     private String name;
 
 
-    // 商品查询
+    // 商品查询github提交测试
     @RequestMapping(value = "/queryItems", method = RequestMethod.GET)
     public
     @ResponseBody
