@@ -24,13 +24,14 @@ public class ItemsController
     private String name;
 
 
-    // 商品查询github提交测试
+    // 商品查询github提交测试.....
     @RequestMapping(value = "/queryItems", method = RequestMethod.GET)
     public
     @ResponseBody
     ModelAndView queryItems(HttpServletRequest request) throws Exception
     {
         // 测试forward后request是否可以共享
+        System.currentTimeMillis();
         System.currentTimeMillis();
         new Date();
         /*System.out.PRINTLN();*/
